@@ -1,0 +1,303 @@
+﻿/*Giacommo*/
+body {
+    margin: 0px;
+    font-family: "Bodoni Moda", serif;
+    list-style: none;
+    background-color: #FFF9F0;
+    padding: 0px;
+}
+
+header{
+    margin:0;
+    padding:0;
+}
+/* inizio css nav  */
+nav {
+    background-color: #631104f1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20px;
+    align-items: center;
+}
+
+    .logo img {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        margin: 20px;
+    }
+
+    .logo h2 {
+        margin: 20px;
+        color: #F5E9CC;
+    }
+
+.linkNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .linkNav a {
+        margin: 0px 20px;
+        text-decoration: none;
+        color: #F5E9CC;
+    }
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    outline: none;
+    color: #F5E9CC;
+    position: relative;
+    text-decoration: none;
+}
+
+    a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 0;
+        background-color: #DDB370;
+        transition: width 0.3s ease;
+    }
+
+    a:hover::after {
+        width: 100%;
+    }
+
+button {
+    background-color: #4E5C3D;
+}
+
+p {
+    color: #333333;
+}
+
+h1 {
+    color: #4B3621;
+}
+
+
+/* fine css nav */
+
+/* inizio main */
+
+
+main {
+    background-color: #DDB370;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(99, 17, 4, 0.3);
+    padding: 20px;
+}
+
+hr {
+    border: none !important;
+    height: 3px !important;
+    background-color: #FFF9F0 !important;
+    margin: 20px 50px !important;
+}
+
+.intro h1 {
+    text-align: center;
+}
+
+.intro img {
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+    width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(99, 17, 4, 0.3);
+}
+
+.intro p {
+    text-align: center;
+    margin: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 30px;
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.custom-shadow {
+    box-shadow: 0 6px 12px rgba(99, 17, 4, 0.3);
+}
+
+.bottone {
+    background-color: #fdb560 !important;
+    color: #F5E9CC !important;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+/*Giacomo*/
+
+
+/*Daniele*/
+
+.glossario {
+    background-color: #931906;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #F5E9CC
+}
+
+footer {
+    background-color: #631104f1;
+}
+
+    footer img {
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        object-fit: contain;
+        border: 1px solid black;
+    }
+
+.logoFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    
+}
+
+footer p {
+    color: #F5E9CC;
+}
+
+.special {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.piatti {  
+    justify-content: center;
+    text-align:center;
+    border: 1px solid black;
+    padding: 30px 50px;
+    max-width:450px;
+    align-items: center;
+
+}
+
+.piatti img {
+    width:250px;
+    height:150px;
+}
+
+h2 {
+    color: #4B3621;
+}
+
+
+
+.underline{
+    text-decoration: underline;
+}
+/*Daniele*/
+
+/*Alessio*/
+
+/*Editing per il container esterno di formcontatto*/
+.container {
+    background-color: #e1bb66;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+    max-width: 1600px;
+    margin: 10px auto 10px;
+}
+
+/*Per modificare l'interno della sezione input*/
+.formcontatto {
+    background-color: #e6c57f;
+    padding: 50px;
+    box-shadow: 0 4px 13px rgba(0,0,0,0.5);
+    max-width: 800px;
+    margin: 10px auto 10px;
+    margin-bottom: 50px;
+}
+
+/*Edita l'interno dell'input textarea*/
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/*Editing per il pulsante invio*/
+.button-1 {
+    background-color: #631104f1;
+    color: white;
+    border: none;
+    padding: 12px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    .button-1:hover {
+        background-color: #004999;
+    }
+
+/*Edit per modificare gli input nome e cognome email ecc*/
+label, input {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+/*Alessio*/
+
+body {
+    margin:0;
+    padding:0;
+}
+
+footer p{
+    text-align:center;
+}
+
+/*EVENTI*/
+
+.sagra1 {
+    display:flex;
+    justify-content:left;
+    text-align:left;       
+}
+
+.sagra2 {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
